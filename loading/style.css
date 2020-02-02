@@ -1,0 +1,44 @@
+.app {
+align-items:center;
+display:flex;
+height:100%;
+justify-content:center;
+position:relative;
+width:100%;
+}
+
+.loading-bar-inner {
+background:#add8e6;
+height:20px;
+transition:width 2s;
+width:0;
+z-index:2;
+}
+
+.loading-bar-outer {
+border:1px solid #000;
+border-radius:5px;
+margin:0 auto;
+overflow:hidden;
+position:relative;
+width:90%;
+z-index:1;
+}
+
+.loading-bar-text {
+background:transparent;
+left:0;
+margin:0;
+position:absolute;
+text-align:center;
+top:0;
+width:100%;
+z-index:1;
+}
+
+body {
+height:100vh;
+margin:0;
+position:relative;
+width:100%;
+}

@@ -1,0 +1,54 @@
+
+* {
+margin:0!important;
+padding:0;
+}
+
+.btn {
+flex:0 0 33.333333%;
+height:100%;
+max-width:33.333333%;
+}
+
+.controls {
+bottom:0;
+display:flex;
+position:absolute;
+width:100%;
+z-index:2;
+}
+
+
+
+.slide {
+height:100vh;
+opacity:0;
+position:absolute;
+transition:opacity 1s;
+width:100%;
+z-index:1;
+}
+
+.slide.show {
+opacity:1;
+z-index:2;
+}
+
+.slider {
+background:#f0e68c;
+height:100vh;
+margin:0;
+position:relative;
+width:100%;
+}
+
+.slides {
+list-style-type:none;
+}
+
+
+
+body {
+height:100vh;
+width:100%;
+}
